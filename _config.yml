@@ -38,7 +38,7 @@ staticman:
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  path                   : "/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -189,6 +189,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -249,7 +250,3 @@ defaults:
       comments: true
       share: true
       related: true
-
-
-plugins:
-  - jekyll-archives
