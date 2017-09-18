@@ -2,7 +2,7 @@
   "hosting": {
     "public": "_site",
     "rewrites": [ {
-        "source": "/404.html",
+        "source": "404.html",
         "destination": "/404/index.html"
     } ]
   }
