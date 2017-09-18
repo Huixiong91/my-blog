@@ -29,7 +29,7 @@ It ultimately became my default go-to station whenever I need to learn a new Pro
 4. [Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript)
 
 
-Before you get put off by the price, fear not, they often have discount code throughout the year. All the courses I have bought were for just a mere S$15. A steal if I might add.
+Before you get put off by the price, fred not, they often have discount code throughout the year. All the courses I have bought were for just a mere S$15 each. A steal if I might add.
 
 _Tips: For Singaporean aged 25 or above, Udemy courses are claimable on [SkillsFuture](http://www.skillsfuture.sg/)._
 
