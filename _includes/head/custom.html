@@ -1,0 +1,24 @@
+<!-- start custom head snippets -->
+{% if page.scripts %}
+  {% for script in page.scripts %}
+    {% if script contains "://" %}
+      {% capture script_path %}{{ script }}{% endcapture %}
+    {% else %}
+      {% capture script_path %}{{ script | absolute_url }}{% endcapture %}
+    {% endif %}
+    <script src="{{ script_path }}"></script>
+  {% endfor %}
+{% endif %}
+
+
+{% if page.styles %}
+  {% for css in page.styles %}
+    {% if css contains "://" %}
+      {% capture css_path %}{{ css }}{% endcapture %}
+    {% else %}
+      {% capture css_path %}{{ css | absolute_url }}{% endcapture %}
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ css_path }}">
+  {% endfor %}
+{% endif %}
+<!-- end custom head snippets -->
